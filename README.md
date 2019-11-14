@@ -5,5 +5,4 @@ Chatbot criado para a disciplina de **Inteligência Artificial** com o objetivo 
 
 **Alunas**
 
-Juliana Neres
-Thaís Damasio
+Juliana Neres & Thaís de Mello

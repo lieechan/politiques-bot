@@ -1,0 +1,15 @@
+{
+  "name": "politiques-bot",
+  "version": "1.0.0",
+  "description": "Bot que explica termos da politica brasileira",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juliana Neres, Thais Damasio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.33.3"
+  }
+}

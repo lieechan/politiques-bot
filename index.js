@@ -146,5 +146,65 @@ app.hears(['O que significa Lavagem de dinheiro?', 'Lavagem de dinheiro', 'lavag
     return ctx.reply('É o processo de ocultar a origem, o dono ou o destino do dinheiro obtido ilegalmente ao escondê-lo dentro de atividades econômicas legítimas para fazê-lo parecer legal. ');
 });
 
+app.hears(['Constituição','constituicao', 'O que é constituição?', 'o q e constituicao'], ctx => {
+    return ctx.reply('Uma constituição é um conjunto base de leis, normas e regras de um país e é ela que regula e organiza todas as possíveis atuações do Estado perante sua população, interna e externamente. A constituição é a lei máxima que apresenta os limites do poder do governo e descreve os deveres e direitos de cada cidadão.');
+});
+
+app.hears(['CPMF','cpmf','O que é CPMF?','o q e cpmf'], ctx => {
+    return ctx.reply('CPMF significa Contribuição Provisória sobre Movimentação Financeira, é um imposto cobrado por todas as movimentações financeiras feitas por pessoas jurídicas e físicas.');
+});
+
+app.hears(['Descentralização', 'descentralizacao', 'O que é descentralização?','o q e descentralizacao', 'O que e descentralização'], ctx => {
+    return ctx.reply('A descentralização caracteriza-se quando um poder antes absoluto, passa a ser repartido.');
+});
+
+app.hears(['Ditadura','ditadura','O que é ditadura?','o que é ditadura?','o q e ditadura?'], ctx => {
+    return ctx.reply('Ditadura é um regime governamental no qual todos os poderes do Estado estão concentrados em um indivíduo, um grupo ou um partido.');
+});
+
+app.hears(['Dívida pública','Divida publica','divida publica','O que é dívida pública?','o q e divida publica'], ctx => {
+    return ctx.reply('A Dívida Pública Federal (DPF) é a dívida contraída pelo Tesouro Nacional para financiar o déficit orçamentário do Governo Federal');
+});
+
+app.hears(['Elite','elite','O que é elite?','o que e elite?', 'O que e elite?'], ctx => {
+    return ctx.reply('Elite é um grupo de pessoas com grande influência ou poder de decisão sobre o governo e sobre a vida cultural de uma sociedade.');
+});
+
+app.hears(['Emenda constitucional','emenda constitucional','O que é emenda constitucional', 'o que e emenda constitucional'], ctx => {
+    return ctx.reply('Uma emenda constitucional é uma modificação da constituição de um Estado, resultando em mudanças pontuais do texto constitucional.');
+});
+
+app.hears(['Empréstimo compusório','emprestimo compusorio','O que é empréstimo compusório','o q e emprestimo compusorio'], ctx => {
+    return ctx.reply('É um empréstimo obrigatório, onde o cidadão será obrigado a emprestar dinheiro para o Poder Público, mas em contrapartida a devolução deste valor é garantida pelo próprio Governo.');
+});
+
+app.hears(['Patrimonialismo','patrimonialismo','O que é patrimonialismo?','o q e patrimonialismo'], ctx => {
+    return ctx.reply('Patrimonialismo é a característica de um Estado que não possui distinções entre os limites do público e os limites do privado.');
+});
+
+app.hears(['PEC','Pec','pec','O que é PEC?','o que e pec?','O que significa PEC?', 'Qual o significado de PEC?'], ctx => {
+    return ctx.reply('Proposta de Emenda à Constituição (PEC) é uma atualização, um emendo à Constituição Federal.');
+});
+
+app.hears(['PL','pl','Projeto de lei','projeto de lei','O que é PL?','O que é pl?','O que é um projeto de lei?'], ctx => {
+    return ctx.reply('Um projeto de lei é um tipo de proposta normativa submetida à deliberação de um órgão legislativo, com o objetivo de produzir uma lei.');
+});
+
+app.hears(['O que é plebiscito?','plebiscito','Plebiscito'], ctx => {
+    return ctx.reply('Pebiscito é uma consulta popular convocada antes da criação da lei.');
+});
+
+app.hears(['Politica cambial', 'politica cambial','O que é política cambial?', 'o que e politica cambial?'], ctx => {
+    return ctx.reply('A política cambial é um conjunto de medidas que um país adota em sua moeda, visando controlar sua relação com as moedas estrangeiras.');
+});
+
+app.hears(['Presidencialismo','presidencialismo', 'O que é presidencialismo?', 'o que e presidencialismo?'], ctx => {
+    return ctx.reply('Presidencialismo é um sistema de governo em que um chefe de governo também é o chefe de Estado e lidera o poder executivo, que é separado do poder legislativo e do poder judiciário.');
+});
+
+app.hears(['Radicalismo','radicalismo','O que é radicalismo?','o que e radicalismo'], ctx => {
+    return ctx.reply('Radicalismo é uma doutrina que prega o uso de ações revolucionárias visando à transformação da sociedade.');
+});
+
 
 app.startPolling(30);

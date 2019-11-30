@@ -214,4 +214,44 @@ app.hears(['Fundo partidário','fundo partidario','O que é fundo partidario?','
     return ctx.reply('O Fundo Partidário é o nome popular dado ao Fundo de Assistência Financeira aos Partidos Políticos. Foi criado em 1965, no governo de Castello Branco, no início da ditadura militar. Seu objetivo seria garantir que os partidos tenham autonomia financeira, permitindo sua existência e criando espaço para a diversidade de ideias na nossa política. ');
 });
 
+app.hears(['Golpe de estado','golpe de estado','O que é golpe de estado?','o que e golpe de estado?', 'o que e golpe de estado'], ctx => {
+    return ctx.reply('Golpe de Estado é derrubar ilegalmente um governo constitucionalmente legítimo, nesta derrubada o controle do Estado passa subitamente das mãos de um governo constitucionalmente eleito para outro grupo de governantes.');
+});
+
+app.hears(['Liberalismo','liberalismo','O que é liberalismo?','o que e liberalismo'], ctx => {
+    return ctx.reply('Liberalismo é a doutrina baseada na defesa da liberdade individual, nos campos econômico, político, religioso e intelectual, contra as intervenções e atitudes coercitivas do poder estatal.');
+});
+
+app.hears(['Medida provisória','medida provisoria','O que é medida provisória','mp','MP','O que é MP?'], ctx => {
+    return ctx.reply('Medida Provisória (MP) é um instrumento com força de lei, adotado pelo presidente da República, em casos de relevância e urgência. Produz efeitos imediatos, mas depende de aprovação do Congresso Nacional para transformação definitiva em lei.');
+});
+
+app.hears(['O que é militarismo?','militarismo','Militarismo','o que militarismo?','o que e militarismo'], ctx => {
+    return ctx.reply('Militarismo é uma ideologia que defende que a sociedade é mais bem regida quando governada ou guiada por conceitos ou pessoas que vem da cultura, doutrina e sistema militares.');
+});
+
+app.hears(['Monarquia','monarquia','O que é monarquia?','O que e monarquia?','o que e monarquia'], ctx => {
+    return ctx.reply('Monarquia é a forma de governo em que o chefe de Estado tem o título de rei ou rainha.');
+});
+
+app.hears(['Nacionalismo', 'nacionalismo','O que é nacionalimos?','o que e nacionalismo','o que e nacionalismo?'], ctx => {
+    return ctx.reply('Nacionalismo é o sentimento de valorização marcado pela aproximação e identificação com uma nação.');
+});
+
+app.hears(['Oligarquia','oligarquia','O que é oligarquia?','o que e oligarquia?','o que e oligarquia'], ctx => {
+    return ctx.reply('Oligarquia é a forma de governo em que o poder político está concentrado num pequeno número pertencente a uma mesma família, um mesmo partido político ou grupo econômico ou corporação.');
+});
+
+app.hears(['Oposição','oposição','Oposicao','oposicao','O que é oposição?', 'O que e oposicao'], ctx => {
+    return ctx.reply('Oposição é ato ou efeito de se opor ou se colocar contra algo ou alguém. Na política refere-se aos partidos políticos contrários ao governo.');
+});
+
+app.hears(['Orçamento público','orcamento publico','O que é orçamento público?','O que e orcamento publico','o que e orcamento publico'], ctx => {
+    return ctx.reply('Orçamento público é um instrumento de planejamento e execução das finanças públicas.  ');
+});
+
+app.hears(['STF','stf','supremo tribunal federal','Supremo tribunal federal','O que é STF?','O que é stf?', 'o que e stf','O que é STF?'], ctx => {
+    return ctx.reply('STF é o Supremo Tribunal Federal e este é a mais alta instância do poder judiciário brasileiro, e acumula tanto competências típicas de uma suprema corte, ou seja, um tribunal de última instância, como de um tribunal constitucional, que seria aquele que julga questões de constitucionalidade independentemente de litígios concretos.');
+});
+
 app.startPolling(30);

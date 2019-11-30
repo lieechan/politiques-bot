@@ -6,10 +6,6 @@ app.start(ctx => {
     ctx.reply('Bem vindx ! ' +  "\n" + 'Eu sou o politiquês e meu objetivo é te explicar termos da politica brasileira que você ainda não saiba o significado');
 });
 
-app.hears('hi', ctx => {
-    return ctx.reply('Teste!');
-});
-
 app.hears(['O que é anarquismo?','O que e anarquismo','o q e anarquismo','anarquismo','Anarquismo'], ctx => {
     return ctx.reply('Anarquismo é uma teoria e ideologia política que não acredita em nenhuma forma de dominação ou hierarquia e prega a cultura da autogestão e coletividade.');
 });
@@ -76,15 +72,6 @@ app.hears(['O que é revisionismo?','Revisionismo','revisionismo','o que e revis
 
 app.hears(['O que é socialismo?','socialismo','Socialismo','o que socialismo'], ctx => {
     return ctx.reply('Socialismo é um sistema político e econômico baseado na igualdade. O socialismo propõe a distribuição igualitária de renda, extinção da propriedade privada, socialização dos meios de produção, economia planificada e a tomada do poder por parte do proletariado.');
-});
-
-
-app.hears([], ctx => {
-    return ctx.reply('');
-});
-
-app.hears(['O que significa MP ?', 'MP', 'mp', 'O que é MP', 'o q e mp'], ctx => {
-    return ctx.reply('Significa medida provisória');
 });
 
 app.hears(['O que significa Tributos ?', 'Tributos', 'tributo', 'O que são Tributos','o que são tributos', 'o q são tributos'], ctx => {

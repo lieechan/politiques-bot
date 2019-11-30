@@ -206,5 +206,12 @@ app.hears(['Radicalismo','radicalismo','O que é radicalismo?','o que e radicali
     return ctx.reply('Radicalismo é uma doutrina que prega o uso de ações revolucionárias visando à transformação da sociedade.');
 });
 
+app.hears(['Lei Ficha Limpa','ficha limpa','O que é Lei Ficha Limpa?','o que e ficha limpa'], ctx => {
+    return ctx.reply('A Lei da Ficha Limpa, em vigor desde 2010, determina a inelegibilidade, por um período de oito anos, de políticos cassados, condenados em processos criminais em segunda instância ou que tenham renunciado para evitar a cassação.');
+});
+
+app.hears(['Fundo partidário','fundo partidario','O que é fundo partidario?','o que e Fundo Partidario'], ctx => {
+    return ctx.reply('O Fundo Partidário é o nome popular dado ao Fundo de Assistência Financeira aos Partidos Políticos. Foi criado em 1965, no governo de Castello Branco, no início da ditadura militar. Seu objetivo seria garantir que os partidos tenham autonomia financeira, permitindo sua existência e criando espaço para a diversidade de ideias na nossa política. ');
+});
 
 app.startPolling(30);

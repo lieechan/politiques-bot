@@ -83,8 +83,68 @@ app.hears([], ctx => {
     return ctx.reply('');
 });
 
-app.hears(['O que significa é MP ?', 'MP', 'mp', 'O que é MP', 'o q e mp'], ctx => {
+app.hears(['O que significa MP ?', 'MP', 'mp', 'O que é MP', 'o q e mp'], ctx => {
     return ctx.reply('Significa medida provisória');
 });
+
+app.hears(['O que significa Tributos ?', 'Tributos', 'tributo', 'O que são Tributos','o que são tributos', 'o q são tributos'], ctx => {
+    return ctx.reply('Tributo é tudo aquilo que o governo arrecada para si para que possa prestar serviços públicos essenciais aos seus cidadãos, como educação, saúde, segurança, entre outros. Esta arrecadação ocorre por meio de alguns tipos de cobranças que o Estado tem o direito de fazer sobre seus cidadãos, como Imposto de Renda, INSS, IPTU, IPVA, Imposto sobre Importação, entre muitos outros');
+});
+
+
+app.hears(['O que significa Utilitarismo  ?', 'Utilitarismo ', 'utilitarismo ', 'O que é Utilitarismo ', 'o q e utilitarismo '], ctx => {
+    return ctx.reply('Utilitarismo é uma teoria filosófica que consiste na ideia de que uma ação só pode ser considerada moralmente correta se as suas consequências promoverem o bem-estar coletivo. Caso o resultado da ação seja negativo para a maioria, esta é classificada como condenável moralmente');
+});
+
+
+app.hears(['O que significa Subdesenvolvido ?', 'Subdesenvolvido', 'subdesenvolvido', 'O que quer dizer Subdesenvolvido'], ctx => {
+    return ctx.reply('Subdesenvolvido é um termo que é usado com frequência em Economia para definir a baixa renda de um país. Em geral é incluído nesse significado a falta de acesso da população de um país ou região às oportunidades de emprego, saúde, água, alimentação, educação e moradia.');
+});
+
+
+app.hears(['O que significa Sindicalismo ?', 'Sindicalismo', 'sindicalismo', 'O que é Sindicalimso', 'o q e sindicalismo'], ctx => {
+    return ctx.reply('Sindicalismo é o movimento e o sistema que permite a representação dos operários através de uma instituição conhecida como sindicato, organização que reúne os trabalhadores para a defesa dos seus interesses.');
+});
+
+app.hears(['O que significa Proletário?', 'Proletário', 'proletário', 'O que é Proletário', 'o q e proletario'], ctx => {
+    return ctx.reply('é o indivíduo que se caracteriza pela sua condição permanente de assalariado e pelos seus modos de vida e atitudes decorrentes de tal situação, pertence a classe dos operários.');
+});
+
+app.hears(['O que significa Marxismo?', 'Marxismo', 'marxismo', 'O que é Marxismo', 'o q e mmarxismo'], ctx => {
+    return ctx.reply('O marxismo é uma corrente de pensamento, criada por Karl Marx e Friedrich Engels. Para eles, em todas as épocas da história a sociedade foi marcada por uma luta de classes, sendo essa relação caracterizada pelo antagonismo entre uma classe opressora e uma oprimida. Na sociedade capitalista, essas classes são representadas respectivamente pela burguesia, que detém os meios de produção e por consequência boa parte da riqueza gerada, e o proletariado, que nada possui além da própria mão de obra, vendida como mercadoria ao proprietário do capital.');
+});
+
+app.hears(['O que significa Meritocracia?', 'Meritocracia', 'meritocracia', 'O que é Meritocracia', 'o q e meritocracia'], ctx => {
+    return ctx.reply('A meritocracia é um modelo de distribuição de recursos, prêmios ou vantagens, cujo critério único a ser considerado é o desempenho e as aptidões individuais de cada pessoa');
+});
+
+app.hears(['O que significa Foro Privilegiado?', 'Foro Privilegiado', 'foro privilegiado', 'O que é Foro Privilegiado', 'o q e foro privilegiado'], ctx => {
+    return ctx.reply('O Foro Privilegiado é um mecanismo pelo qual se altera a competência penal sobre ações contra certas autoridades públicas. Ou seja, uma ação penal contra uma autoridade pública é julgada por tribunais superiores, diferentemente de um cidadão comum, julgado pela justiça comum.');
+});
+
+app.hears(['O que significa Direita?', 'Direita', 'direita', 'O que é Direita', 'o q e direita'], ctx => {
+    return ctx.reply('Direita é uma palavra usada para representar um posicionamento político, partidário e ideológico. Quando uma pessoa se identifica com a ideologia política de direita ela costuma dar prioridade aos direitos individuais em relação aos direitos coletivos. Também é comum que considere valores religiosos e tradicionais como fundamentais para a sociedade.');
+});
+
+app.hears(['O que significa Demagogia?', 'Demagogia', 'demagogia', 'O que é Demagogia', 'o q e demagogia'], ctx => {
+    return ctx.reply('Demagogia é um termo de origem grega que significa "arte ou poder de conduzir o povo". É uma forma de atuação política na qual existe um claro interesse em manipular ou agradar a massa popular, incluindo promessas que muito provavelmente não serão realizadas, visando apenas à conquista do poder político e ou outras vantagens correlacionadas.');
+});
+
+app.hears(['O que significa Nepotismo?', 'Nepotismo', 'nepotismo', 'O que é Nepotismo', 'o q e nepotismo'], ctx => {
+    return ctx.reply(' o termo nepotismo refere-se a nomeação, contratação ou favorecimento de familiares por parte de um agente público.');
+});
+
+app.hears(['O que significa Eligibilidade?', 'Eligibilidade', 'eligibilidade', 'O que é Eligibilidade', 'o q e eligibilidade'], ctx => {
+    return ctx.reply('Elegibilidade é a capacidade que os cidadãos têm de serem eleitos, de serem pessoas elegíveis de acordo com as condições permitidas pela legislação.');
+});
+
+app.hears(['O que significa Esquerda?', 'Esquerda', 'esquerda', 'O que é Esquerda', 'o q e esquerda'], ctx => {
+    return ctx.reply('Os posicionamentos de esquerda valorizam os indivíduos altruístas e dispostos a se conformar à coletividade. A sociedade deve oferecer segurança social aos indivíduos, independentemente de sua condição ou ações. Promove a igualdade social, opondo-se a qualquer tipo de desigualdade considerada injusta, principalmente as desigualdades econômicas. ');
+});
+
+app.hears(['O que significa Lavagem de dinheiro?', 'Lavagem de dinheiro', 'lavagem de dinheiro', 'O que é Lavagem de dinheiro', 'o q e lavagem de dinheiro'], ctx => {
+    return ctx.reply('É o processo de ocultar a origem, o dono ou o destino do dinheiro obtido ilegalmente ao escondê-lo dentro de atividades econômicas legítimas para fazê-lo parecer legal. ');
+});
+
 
 app.startPolling(30);
